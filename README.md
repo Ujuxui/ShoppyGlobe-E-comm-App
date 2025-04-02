@@ -1,12 +1,23 @@
-# React + Vite
+# README file:  ShoppyGlobe E-commerce App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Interactive and Responsive E-commerce App for ShoppyGlobe Online Store where one can search, check product details and add products to the cart, as well modify quantity and remove the products from the cart.
 
-Currently, two official plugins are available:
+## The pages include –
+1. Home Page: A landing page with a nav bar and link to the Products Page.
+2. Products Page: Displays a list of products that can be filtered by search, with each product linked to Product Details page.
+3. Product Details Page: Displays detailed information about a selected product and includes a "Add To Cart" button.
+4. Cart Page: Contains a form for adding a new product to the cart with a "Remove" button.
+5. Error Page: A "Page Not Found" route for any undefined routes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies used – 
+**React** (for building interactive UI components), **Redux** (to manage the state of the products list), **Tailwind CSS** (for styling), **Vite**, and **Lazy Loading/Suspense**.
 
-## Expanding the ESLint configuration
+## File Structure –
+The src folder contains App.jsx, main.jsx, index.css along with the components folder which contains HomePage.jsx, Header.jsx, Footer.jsx, ErrorPage.jsx, ProductList.jsx, ProductDetails.jsx, ProductItem.jsx, and Cart.jsx.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to run the application –
+Clone the repository using git clone 
+
+Then run the app using *npm run dev* after installing the dependencies (*npm install*).
+
+**In the app, one can search products to add them to the cart which has options to modify quantity and remove the product from the cart list as well.**
