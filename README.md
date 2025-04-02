@@ -16,7 +16,7 @@ An Interactive and Responsive E-commerce App for ShoppyGlobe Online Store where 
 The src folder contains App.jsx, main.jsx, index.css along with the components folder which contains HomePage.jsx, Header.jsx, Footer.jsx, ErrorPage.jsx, ProductList.jsx, ProductDetails.jsx, ProductItem.jsx, and Cart.jsx.
 
 ## How to run the application –
-Clone the repository using git clone 
+Clone the repository using git clone https://github.com/Ujuxui/ShoppyGlobe-E-comm-App.git
 
 Then run the app using *npm run dev* after installing the dependencies (*npm install*).
 
